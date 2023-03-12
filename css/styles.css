@@ -6,6 +6,7 @@
   --primery-bcg: #ffffff;
   --btn-background: #404bbf;
   --light-background: #f4f4fd;
+  --border: #e7e9fc;
 }
 
 body {
@@ -31,6 +32,7 @@ img {
 .headerpage {
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid var(--border);
 }
 .headerpage-logo {
   font-family: "Raleway", sans-serif;
