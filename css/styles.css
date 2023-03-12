@@ -200,9 +200,7 @@ button {
   gap: 24px;
   flex-wrap: wrap;
 }
-.section-examples-images {
-  flex-basis: calc((100%-48px) / 3);
-}
+
 .section-team-list {
   display: flex;
   gap: 24px;
@@ -213,14 +211,39 @@ button {
   flex-basis: calc((100% - (3 * 24px)) / 4);
 }
 .section-team-card-bottom {
-  background: #ffffff;
+  background: var(--primery-bcg);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
   padding: 32px 16px;
 }
+
+.portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+.portfolio-cards {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.portfolio-cards-descr {
+  border-bottom: 1px solid var(--accent);
+  border-left: 1px solid var(--accent);
+  border-right: 1px solid var(--accent);
+  padding: 32px 16px;
+}
+.filters-list {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 72px;
+}
 .footerpage {
   background-color: var(--dark);
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .footerpage-logo {
@@ -233,7 +256,6 @@ button {
   text-transform: uppercase;
   letter-spacing: 0.03em;
 }
-
 .footerpage-logo-end {
   color: var(--light-background);
 }
@@ -243,6 +265,8 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--light-background);
+  margin-top: 16px;
+  width: 264px;
 }
 .section-team {
   background-color: var(--light-background);
@@ -255,6 +279,11 @@ button {
   letter-spacing: 0.04em;
   color: var(--primary-brand);
   background-color: var(--light-background);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  padding: 12px 24px;
+  border: 0px;
 }
 
 .filters-list-btn:hover,
