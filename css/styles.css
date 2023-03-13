@@ -162,7 +162,9 @@ button {
 .hero-btn:focus {
   background-color: var(--btn-background);
 }
-
+.section-examples.section {
+  padding-top: 0;
+}
 .section-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -185,6 +187,7 @@ button {
   text-transform: capitalize;
   color: var(--dark);
   margin-bottom: 72px;
+  padding-top: 0;
 }
 
 .features-list {
